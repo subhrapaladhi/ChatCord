@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node App/app.js",
-    "dev": "nodemon App/app.js",
+    "start": "node Build/app.js",
+    "dev": "nodemon Build/app.js",
     "tsc": "tsc -w"
   },
   "author": "subhra paladhi",
