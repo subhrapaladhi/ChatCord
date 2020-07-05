@@ -1,0 +1,26 @@
+{
+  "name": "chatcord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node App/app.js",
+    "dev": "nodemon App/app.js",
+    "tsc": "tsc -w"
+  },
+  "author": "subhra paladhi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/moment": "^2.13.0",
+    "@types/node": "^14.0.14",
+    "@types/socket.io": "^2.1.8",
+    "nodemon": "^2.0.4",
+    "typescript": "^3.9.6"
+  }
+}
